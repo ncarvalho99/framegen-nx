@@ -1,0 +1,76 @@
+# Proprietary and user-supplied Lossless Scaling assets
+/Lossless Scaling/
+/**/Lossless.dll
+/**/lossless.dll
+/appmanifest_993090.acf
+/lsfg-user/
+/**/lsfg-extracted/
+/**/lsfg-cache/
+
+# Local agent instructions, prompts, skills, and coordination state
+/AGENTS.md
+/CLAUDE.md
+/SKILL.md
+/SKILLS.md
+/skills.md
+/prompt_*_frame_gen.md
+/docs/
+/.agents/
+/.antigravity/
+/.claude/
+/.codex/
+/.gemini/
+/.opencode/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+secrets.*
+config.local.*
+
+# Build systems and generated binaries
+/build/
+/out/
+/dist/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.nro
+*.nso
+*.elf
+*.map
+*.pdb
+*.dmp
+
+# Locally extracted or translated shader artifacts
+*.dxbc
+*.dxil
+*.cso
+*.shader-cache
+
+# Logs, test output, and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+/.cache/
+/.pytest_cache/
+/coverage/
+
+# Editors and operating systems
+/.idea/
+/.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+Desktop.ini
